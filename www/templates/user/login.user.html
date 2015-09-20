@@ -1,0 +1,42 @@
+<ion-view view-title="Login" align-title="left">
+  <ion-content style="background: url(img/login.jpg) center; background-size: cover;">
+    <div class="card light-bg">
+      <div class="item">
+        <div class="hero" style="box-shadow: none;margin-top:-60px;">
+          <div class="content">
+            <div class="avatar" style="background-image: url('img/login.png');"></div>
+            <h3><a class="positive">Login</a></h3>
+          </div>
+        </div>
+
+
+        <div class="list">
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Username</span>
+            <input type="text" placeholder="Username" ng-model="user.name">
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Password</span>
+            <input type="password" placeholder="Password" ng-model="user.password">
+          </label>
+        </div>
+        <div class="row" >
+          <div align="center" class="col light">
+                   <button id="fab-friends"  class="button button-fab  button-energized-900 icon ion-arrow-right-c"
+                            ng-click="login(user)"></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div align="center" class="col light">
+        Forget password ?
+      </div>
+    </div>
+    <div class="padding">
+      <button onclick="window.plugins.toast.showShortTop('Hello there!', function(a){console.log('toast success: ' + a)}, function(b){alert('toast error: ' + b)})" class="button button-full button-assertive ink">Sign in</button>
+    </div>
+
+  </ion-content>
+</ion-view>

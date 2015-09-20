@@ -1,0 +1,10 @@
+{
+  "name": "easyLife",
+  "app_id": "f230713e",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "https://easy-life.herokuapp.com/api"
+    }
+  ]
+}

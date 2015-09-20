@@ -1,0 +1,14 @@
+<ion-view view-title="Friends">
+    <ion-content ng-class="{expanded:isExpanded}">
+        <div class="content has-header">
+            <div class="list animate-fade-slide-in-right">
+              <a href="#/app/profile" ng-repeat="friend in liste" class="item item-avatar item-icon-right">
+                <img src="{{friend.img}}">
+                <h2>{{friend.title}}</h2>
+                <p>{{friend.content}}</p>
+                <i class="icon ion-chatbubble muted"></i>
+              </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

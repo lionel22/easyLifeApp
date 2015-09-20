@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/.io-config.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_cl/user/app.user.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_cl/user/config/config.user.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_cl/user/controllers/home.user.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_cl/user/controllers/user.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_cl/user/controllers/wallet.user.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_cl/user/directives/swiper.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app_cl/user/services/user.service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ionic.project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scss/ionic.app.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/friends.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/menu.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/user/home.user.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/user/login.user.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/user/menu.user.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/user/wallet.user.html" charset="UTF-8" />
+  </component>
+</project>
